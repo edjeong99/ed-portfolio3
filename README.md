@@ -1,18 +1,21 @@
-# gatsby-starter-strata
+This is a personal development portfolio site for Edward Jeong.
 
-**This is a starter for Gatsby.js V2.**
+I used gatsby-starter-strata template to begin and modified as needed.
 
-**The older V1 version of this starter can be found on the v1 branch**
+### Author
 
-Gatsby starter based on the Strata site template, designed by [HTML5 UP](https://html5up.net/strata). Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
+Author is Edward Jeong. You can contact at edjeong99@gmail.com
 
-## Preview
+### Deployment
 
-http://gatsby-strata.surge.sh/
+this site is depolyed at
+https://portfolio-edward.netlify.com/
 
-## Installation
+### Installation
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-starter-strata https://github.com/ChangoMan/gatsby-starter-strata`
+To install the application in a local dev environment, run `yarn install` in the root folder. Then, run `yarn start`.
 
-Run `gatsby develop` in the terminal to start.
+### Memo
+
+needed navbar and components are added and the site starts without an error.
+For next, left side menu and right side display should be separate area (currently right side overlaps left side menu)
