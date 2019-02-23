@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "Portfolio-Edward-Jeong",
+  "description": "Full Stack Portfolio",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Edward Jeong <edjeong99@gmail.com>",
   "dependencies": {
     "gatsby": "^2.0.76",
     "gatsby-plugin-manifest": "^2.0.9",
@@ -12,8 +12,14 @@
     "node-sass": "^4.11.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-flexbox-grid": "^2.1.2",
     "react-helmet": "^5.2.0",
-    "react-images": "^0.5.19"
+    "react-icons": "^3.4.0",
+    "react-images": "^0.5.19",
+    "react-responsive-modal": "^3.6.0",
+    "react-vertical-timeline-component": "^2.3.1",
+    "typography": "^0.16.18",
+    "typography-theme-github": "^0.16.18"
   },
   "keywords": [
     "gatsby"
@@ -23,13 +29,14 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run develop"
   },
   "devDependencies": {
     "prettier": "^1.14.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/edjeong99/ed-portfolio3"
   }
 }
