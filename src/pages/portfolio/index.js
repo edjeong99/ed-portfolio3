@@ -4,7 +4,7 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import { Grid, Row, Col } from 'react-flexbox-grid'
 
-import Layout from '../../components/Layout'
+import Layout from '../../components/layout'
 import portfolioData from './../../data/portfolio'
 
 class portfolioIndex extends React.Component {
