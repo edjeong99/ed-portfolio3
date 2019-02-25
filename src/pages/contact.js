@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import get from 'lodash/get'
 
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 import contactData from './../data/contact'
 
 class Contact extends React.Component {

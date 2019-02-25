@@ -8,7 +8,7 @@ import {
 import 'react-vertical-timeline-component/style.min.css'
 import { graphql } from 'gatsby'
 
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 import { rhythm } from '../utils/typography'
 import './../styles/timeline.css'
 import LightboxImage from '../components/LightboxImage'
