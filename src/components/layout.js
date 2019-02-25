@@ -1,7 +1,6 @@
 import React from 'react'
 import '../assets/scss/main.scss'
 import Navbar from './Navbar'
-
 import Header from './Header'
 
 class Template extends React.Component {
@@ -9,9 +8,8 @@ class Template extends React.Component {
     const { children } = this.props
 
     return (
-      <div>
+      <div className="body">
         <Header />
-        <Navbar />
         {children}
       </div>
     )
