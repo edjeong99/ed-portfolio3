@@ -4,11 +4,11 @@ I used gatsby-starter-strata template to begin and modified as needed.
 
 ### Author
 
-Author is Edward Jeong. You can contact at edjeong99@gmail.com
+Edward Jeong. You can contact at edjeong99@gmail.com
 
 ### Deployment
 
-this site is depolyed at
+this site is deployed at
 https://portfolio-edward.netlify.com/
 
 ### Installation
