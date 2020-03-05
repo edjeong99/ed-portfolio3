@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Navbar from '../components/Navbar'
 import Layout from '../components/layout'
+import Portfolio from '../components/Portfolio'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
@@ -148,9 +149,8 @@ class HomeIndex extends React.Component {
           </section>
 
           <section id="two">
-            <h2>Recent Work</h2>
-
-            <Gallery
+         
+            {/* <Gallery
               images={DEFAULT_IMAGES.map(
                 ({ id, src, thumbnail, caption, description }) => ({
                   src,
@@ -159,8 +159,9 @@ class HomeIndex extends React.Component {
                   description,
                 })
               )}
-            />
+            /> */}
 
+            <Portfolio />
             <ul className="actions">
               <li>
                 <a href="#" className="button">
@@ -170,7 +171,7 @@ class HomeIndex extends React.Component {
             </ul>
           </section>
 
-          <section id="three">
+          {/* <section id="three">
             <h2>Get In Touch</h2>
             <p>
               Accumsan pellentesque commodo blandit enim arcu non at amet id
@@ -240,7 +241,7 @@ class HomeIndex extends React.Component {
                 </ul>
               </div>
             </div>
-          </section>
+          </section> */}
         </div>
       </Layout>
     )
